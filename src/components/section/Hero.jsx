@@ -6,7 +6,7 @@ import { ComputersCanvas } from "../canvas";
 /**
  * Hero component renders the hero section of the portfolio.
  * It includes a greeting message, a brief description, and a canvas animation.
- * 
+ *
  * @component
  * @returns {JSX.Element} The Hero component.
  */

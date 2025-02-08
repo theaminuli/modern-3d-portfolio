@@ -1,3 +1,10 @@
+/**
+ * Variants for the sidebar animation.
+ * 
+ * @type {Object}
+ * @property {Function} open - Function to define the open state of the sidebar.
+ * @property {Object} closed - Object to define the closed state of the sidebar.
+ */
 const sidebarVariants = {
 	open: (height = 1000) => ({
 		clipPath: `circle(${height * 2 + 200}px at calc(100% - 40px) 40px)`,

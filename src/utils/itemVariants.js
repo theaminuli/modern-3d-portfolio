@@ -1,3 +1,7 @@
+/**
+ * An object containing animation variants for an item.
+ * @type {Object}
+ */
 const itemVariants = {
 	open: {
 		y: 0,
