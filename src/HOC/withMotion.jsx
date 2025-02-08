@@ -8,7 +8,7 @@ const withMotion = (OriginalComponent) => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				viewport={{ once: true, amount: 0.25 }}
-				className={'sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0'}
+				className={'sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0 bg-[#060816]'}
 			>
 				<OriginalComponent {...props} />
 			</motion.section>
