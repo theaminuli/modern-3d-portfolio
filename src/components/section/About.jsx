@@ -9,13 +9,13 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant}>
-				<p className={'sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'}>Introduction</p>
-				<h2 className={'sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'}>Overview.</h2>
+				<p className={'sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider'}>Introduction</p>
+				<h2 className={'sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider'}>Overview.</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+				className="mt-4 text-[#aaa6c3] text-[17px] max-w-3xl leading-[30px]"
 			>
 				Full Stack Developer | Expert in TypeScript, JavaScript, React, Node.js,
 				MongoDB, Express.js & WordPress. I build scalable, user-friendly
