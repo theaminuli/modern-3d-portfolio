@@ -10,18 +10,13 @@ const About = () => {
 		<>
 			<motion.div variants={textVariant}>
 				<p
-					className={
-						"sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"
-					}
+					className={"sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"}
 				>
 					Introduction
 				</p>
-				<h2
-					className={
-						"sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"
-					}
+				<h2 className={ "sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"}
 				>
-					Overview.
+					Overview. 
 				</h2>
 			</motion.div>
 
