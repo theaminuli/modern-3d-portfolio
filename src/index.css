@@ -18,6 +18,10 @@
 	.bg-hero-pattern {
 		@apply bg-cover bg-no-repeat bg-center bg-[url(./assets/herobg.png)];
 	}
+	.violet-gradient {
+		@apply bg-[#804dee] bg-gradient-to-l from-[#804dee] to-transparent;
+	  }
+	  
 }
 @keyframes mulShdSpin {
 	0%,
