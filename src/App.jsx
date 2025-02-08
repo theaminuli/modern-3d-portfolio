@@ -1,9 +1,13 @@
+import { CopyRight } from "./components/footer";
+import Header from "./components/header/Header";
+import Hero from "./components/section/Hero";
+
 function App() {
 	return (
 		<>
-			<h1 className="text-4xl font-bold text-center mt-10">
-				Hello Vite + React + Tailwind CSS!
-			</h1>
+			<Header />
+			<Hero />
+			<CopyRight />
 		</>
 	);
 }
