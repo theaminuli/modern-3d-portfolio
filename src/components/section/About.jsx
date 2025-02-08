@@ -1,16 +1,28 @@
 /* eslint-disable react-refresh/only-export-components */
 import { motion } from "motion/react";
 import { services } from "../../data";
+import withMotion from "../../HOC/withMotion";
 import { fadeIn, textVariant } from "../../utils";
 import ServiceCard from "../common/ServiceCard";
-import withMotion from "../../HOC/withMotion";
 
 const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant}>
-				<p className={'sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider'}>Introduction</p>
-				<h2 className={'sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider'}>Overview.</h2>
+				<p
+					className={
+						"sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"
+					}
+				>
+					Introduction
+				</p>
+				<h2
+					className={
+						"sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"
+					}
+				>
+					Overview.
+				</h2>
 			</motion.div>
 
 			<motion.p
@@ -23,9 +35,14 @@ const About = () => {
 				life!
 			</motion.p>
 
-			<div className="mt-20 flex flex-wrap gap-10">
+			<div className="mt-20 flex flex-wrap justify-center gap-10 md:gap-8 lg:gap-6 xl:gap-10">
 				{services.map((service, index) => (
-					<ServiceCard key={service.title} index={index} {...service} />
+					<ServiceCard
+						key={service.title}
+						index={index}
+						{...service}
+						className="w-full sm:w-[45%] md:w-[30%] lg:w-[22%]"
+					/>
 				))}
 			</div>
 		</>
