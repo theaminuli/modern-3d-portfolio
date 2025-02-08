@@ -5,8 +5,10 @@ import Hero from "./components/section/Hero";
 function App() {
 	return (
 		<>
-			<Header />
-			<Hero />
+			<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+				<Header />
+				<Hero />
+			</div>
 			<CopyRight />
 		</>
 	);
