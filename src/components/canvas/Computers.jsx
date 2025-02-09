@@ -15,16 +15,16 @@ const Computers = ({ isMobile }) => {
 
 	return (
 		<mesh>
-			<hemisphereLight intensity={0.2} groundColor="black" />
+			<hemisphereLight intensity={0.3} groundColor="black" />
 			<spotLight
-				position={[-20, 50, 10]}
-				angle={0.5} // Wider beam angle
-				penumbra={1.5} // Slightly softer edges
-				intensity={4.5} // Increased brightness
+				position={[-10, 30, 5]} // Lowered the spotlight closer to the object
+				angle={0.5} // Wider beam
+				penumbra={0.6} // Slightly soft edges
+				intensity={5} // Increased brightness significantly
 				castShadow
-				shadow-mapSize={2048} // Higher resolution shadows
+				shadow-mapSize={4096} // Higher resolution shadows for sharpness
 			/>
-			<pointLight intensity={1.5} />
+			<pointLight intensity={2} position={[0, 5, 0]} /> {/* Stronger point light from above */}
 			<primitive
 				object={computer.scene}
 				scale={isMobile ? 0.7 : 0.75}
