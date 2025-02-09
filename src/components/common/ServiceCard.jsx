@@ -6,6 +6,9 @@ const ServiceCard = ({ index, title, icon, className }) => (
 	<div className={className}>
 		<motion.div
 			variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+			initial="hidden"
+			whileInView="show"
+			viewport={{ once: true, amount: 0.3 }}
 			className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
 		>
 			<div

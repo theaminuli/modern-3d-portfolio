@@ -8,7 +8,12 @@ import ServiceCard from "../common/ServiceCard";
 const About = () => {
 	return (
 		<>
-			<motion.div variants={textVariant} initial="hidden" animate="show">
+			<motion.div
+				variants={textVariant}
+				initial="hidden"
+				whileInView="show"
+				viewport={{ once: true, amount: 0.3 }} // Triggers when 30% is visible
+			>
 				<p className="sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider">
 					Introduction
 				</p>
@@ -17,10 +22,12 @@ const About = () => {
 				</h2>
 			</motion.div>
 
+			{/* Description Animation (Triggers on Scroll) */}
 			<motion.p
 				variants={fadeIn("up", "tween", 0.2, 1)}
 				initial="hidden"
-				animate="show"
+				whileInView="show"
+				viewport={{ once: true, amount: 0.3 }}
 				className="mt-4 text-[#aaa6c3] text-[17px] max-w-3xl leading-[30px]"
 			>
 				Full Stack Developer | Expert in TypeScript, JavaScript, React, Node.js,
