@@ -3,28 +3,40 @@
 import { useGLTF } from "@react-three/drei";
 
 /**
- * Computers component renders a 3D computer model with lighting effects.
+ * Computers component renders a 3D computer model with enhanced lighting.
  *
  * @param {Object} props - The component props.
  * @param {boolean} props.isMobile - Determines if the view is on a mobile device.
  *
- * @returns {JSX.Element} The rendered 3D computer model with lighting.
+ * @returns {JSX.Element} The rendered 3D computer model with better lighting.
  */
 const Computers = ({ isMobile }) => {
 	const computer = useGLTF("./desktop_pc/scene.gltf");
 
 	return (
 		<mesh>
-			<hemisphereLight intensity={0.15} groundColor="black" />
+			{/* Soft ambient lighting for better visibility */}
+			<ambientLight intensity={0.6} />
+
+			{/* Hemisphere light for a more natural feel */}
+			<hemisphereLight intensity={0.5} groundColor="black" />
+
+			{/* Stronger spotlight for dramatic effect */}
 			<spotLight
 				position={[-20, 50, 10]}
-				angle={0.12}
-				penumbra={1}
-				intensity={1}
+				angle={0.3}
+				penumbra={0.8}
+				intensity={2.5}
 				castShadow
-				shadow-mapSize={1024}
+				shadow-mapSize={2048}
 			/>
-			<pointLight intensity={1} />
+
+			{/* Additional point lights for general brightness */}
+			<pointLight position={[5, 10, 5]} intensity={1.8} />
+			<pointLight position={[-5, 10, -5]} intensity={1.5} />
+			<pointLight position={[0, 5, 0]} intensity={1.2} />
+
+			{/* Computer model */}
 			<primitive
 				object={computer.scene}
 				scale={isMobile ? 0.7 : 0.75}
