@@ -54,7 +54,7 @@ const Header = () => {
 							className="absolute right-0 top-0 w-64 h-full p-6 "
 						>
 							<motion.div
-								className="absolute inset-0 bg-gray-700 rounded-sm"
+								className="absolute inset-0 bg-[#0e141d] rounded-sm"
 								variants={sidebarVariants}
 							/>
 							<Navigation navLinks={navLinks} />
