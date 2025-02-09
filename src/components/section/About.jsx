@@ -8,19 +8,19 @@ import ServiceCard from "../common/ServiceCard";
 const About = () => {
 	return (
 		<>
-			<motion.div variants={textVariant}>
-				<p
-					className="sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider"
-				>
+			<motion.div variants={textVariant} initial="hidden" animate="show">
+				<p className="sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider">
 					Introduction
 				</p>
 				<h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-					Overview. 
+					Overview.
 				</h2>
 			</motion.div>
 
 			<motion.p
-				variants={fadeIn("", "", 0.1, 1)}
+				variants={fadeIn("up", "tween", 0.2, 1)}
+				initial="hidden"
+				animate="show"
 				className="mt-4 text-[#aaa6c3] text-[17px] max-w-3xl leading-[30px]"
 			>
 				Full Stack Developer | Expert in TypeScript, JavaScript, React, Node.js,

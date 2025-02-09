@@ -3,7 +3,7 @@ import Path from "./Path";
 
 const MenuToggle = ({ toggle }) => (
 	<button
-		className="absolute top-5 right-5 w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full cursor-pointer"
+		className="absolute top-5 right-5 w-10 h-10 flex items-center justify-center bg-[#0e141d] rounded-full cursor-pointer"
 		onClick={toggle}
 	>
 		<svg width="23" height="23" viewBox="0 0 23 23">

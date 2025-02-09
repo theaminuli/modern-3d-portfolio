@@ -6,17 +6,11 @@
  * @property {Object} show - The visible state of the text element.
  */
 const textVariant = {
-	hidden: {
-		y: -50,
-		opacity: 0,
-	},
+	hidden: { y: -50, opacity: 0 },
 	show: {
 		y: 0,
 		opacity: 1,
-		transition: {
-			type: "spring",
-			duration: 1.25,
-		},
+		transition: { type: "spring", duration: 1.25 },
 	},
-}
+};
 export default textVariant;
