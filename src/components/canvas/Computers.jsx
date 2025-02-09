@@ -18,9 +18,9 @@ const Computers = ({ isMobile }) => {
 			<hemisphereLight intensity={0.2} groundColor="black" />
 			<spotLight
 				position={[-20, 50, 10]}
-				angle={0.3} // Wider beam angle
-				penumbra={0.8} // Slightly softer edges
-				intensity={2.5} // Increased brightness
+				angle={0.5} // Wider beam angle
+				penumbra={1.5} // Slightly softer edges
+				intensity={4.5} // Increased brightness
 				castShadow
 				shadow-mapSize={2048} // Higher resolution shadows
 			/>
