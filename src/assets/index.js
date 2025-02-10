@@ -1,6 +1,5 @@
 
 import logo from "./logo.svg";
-import web from "./web.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -17,8 +16,6 @@ export {
 	jobit,
 	logo,
 	tripguide,
-	web,
-
 	github,
 	twitter,
 	instagram,
