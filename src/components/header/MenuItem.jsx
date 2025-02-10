@@ -13,7 +13,7 @@ const MenuItem = ({ index, title }) => {
 		>
 			<a
 				href="#"
-				className="flex items-center space-x-3 p-2 text-neutral-400 font-bold text-xl hover:text-white transition-colors"
+				className="flex items-center space-x-3 p-2 bg-gray-800 rounded-md cursor-pointer"
 			>
 				<div
 					className="w-10 h-10 rounded-full"
