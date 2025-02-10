@@ -1,29 +1,4 @@
-import {
-	backend,
-	carrent,
-	creator,
-	css,
-	docker,
-	figma,
-	git,
-	html,
-	javascript,
-	jobit,
-	meta,
-	mobile,
-	mongodb,
-	nodejs,
-	reactjs,
-	redux,
-	shopify,
-	starbucks,
-	tailwind,
-	tesla,
-	threejs,
-	tripguide,
-	typescript,
-	web,
-} from "../assets";
+import { carrent } from "../assets";
 
 export const navLinks = [
 	{
@@ -37,80 +12,6 @@ export const navLinks = [
 	{
 		id: "contact",
 		title: "Contact",
-	},
-];
-
-const services = [
-	{
-		title: "Frontend Developer",
-		icon: web,
-	},
-	{
-		title: "React.js Developer",
-		icon: mobile,
-	},
-	{
-		title: "Backend Developer",
-		icon: backend,
-	},
-	{
-		title: "Full Stack Developer",
-		icon: creator,
-	},
-];
-
-const technologies = [
-	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
-	},
-	{
-		name: "JavaScript",
-		icon: javascript,
-	},
-	{
-		name: "TypeScript",
-		icon: typescript,
-	},
-	{
-		name: "React JS",
-		icon: reactjs,
-	},
-	{
-		name: "Redux Toolkit",
-		icon: redux,
-	},
-	{
-		name: "Tailwind CSS",
-		icon: tailwind,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "Three JS",
-		icon: threejs,
-	},
-	{
-		name: "git",
-		icon: git,
-	},
-	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
 	},
 ];
 

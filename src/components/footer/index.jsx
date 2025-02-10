@@ -1,3 +1,4 @@
-import CopyRight from "./CopyRight";
+import Footer from "./Footer";
 
-export { CopyRight };
+
+export { Footer };

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { services } from "../../data";
 import withMotion from "../../HOC/withMotion";
 import { fadeIn, textVariant } from "../../utils";
-import ServiceCard from "../common/ServiceCard";
+import ServiceCard from "../common/old.ServiceCard";
 
 const About = () => {
 	return (

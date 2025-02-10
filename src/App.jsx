@@ -1,4 +1,4 @@
-import { CopyRight } from "./components/footer";
+import { Footer } from "./components/footer";
 import Header from "./components/header/Header";
 import Hero from "./components/section/Hero";
 
@@ -7,7 +7,7 @@ function App() {
 		<>
 			<Header />
 			<Hero />
-			<CopyRight />
+			<Footer />
 		</>
 	);
 }
