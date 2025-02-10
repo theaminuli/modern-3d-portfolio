@@ -4,6 +4,14 @@
 @theme {
 	--font-poppins: "Poppins", sans-serif;
 	--animate-mul-spin: mul-spin 1.1s infinite ease;
+	--animate-ping: ping 1s cubic-bezier(0,0,.2,1) infinite;
+
+	@keyframes ping {
+		75%, 100% {
+			transform: scale(2);
+			opacity: 0;
+		}
+	}
 	@keyframes mul-spin {
 
 		0%,
@@ -132,6 +140,9 @@
 	}
 	.btn{
 		@apply ml-auto mr-auto flex cursor-pointer items-center justify-center gap-4 border border-gray-800 bg-gray-900 text-white rounded-md px-4 py-2 transition-all duration-150 ease-in-out;
+	}
+	.btn-ping {
+		@apply animate-ping rounded-full bg-green-500 opacity-[.75];
 	}
 
 	@media (min-width: 640px) {
