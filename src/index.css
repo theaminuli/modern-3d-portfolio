@@ -14,7 +14,7 @@
 
 @layer utilities {
 	.container {
-		@apply mx-auto max-w-[1280px];
+		@apply mx-auto max-w-[1170px];
 	}
 
 	.canvas-loader {
