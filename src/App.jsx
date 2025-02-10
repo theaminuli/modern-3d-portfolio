@@ -1,6 +1,5 @@
 import { CopyRight } from "./components/footer";
 import Header from "./components/header/Header";
-import About from "./components/section/About";
 import Hero from "./components/section/Hero";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
 		<>
 			<Header />
 			<Hero />
-			<About />
 			<CopyRight />
 		</>
 	);
