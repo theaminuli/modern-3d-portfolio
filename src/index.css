@@ -149,6 +149,6 @@
 		@apply font-[Poppins] text-[1rem] leading-[1.5rem] text-gray-300;
 	}
 	.grid-headtext {
-		@apply mb-[.5rem] font-[Poppins] text-[1.25rem] leading-[1.75rem] font-[600] text-gray-300;
+		@apply mb-[.5rem] font-[Poppins] text-[1.50rem] leading-[1.75rem] font-[600] text-gray-300;
 	}
 }
