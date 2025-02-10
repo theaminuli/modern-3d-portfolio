@@ -2,7 +2,7 @@ import { github, instagram, twitter } from "../../assets";
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#010103] border-t">
+		<footer className="bg-[#010103] border-t border-gray-700">
 			<div className="container c-space pt-7 pb-3 flex justify-between items-center flex-wrap gap-5">
 				<div className="text-white-500 flex gap-2 opacity-70">
 					<p>Terms & Conditions</p>
