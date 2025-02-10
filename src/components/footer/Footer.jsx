@@ -2,9 +2,9 @@ import { github, instagram, twitter } from "../../assets";
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#010103]">
-			<div className="container c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
-				<div className="text-white-500 flex gap-2">
+		<footer className="bg-[#010103] border-t">
+			<div className="container c-space pt-7 pb-3 flex justify-between items-center flex-wrap gap-5">
+				<div className="text-white-500 flex gap-2 opacity-70">
 					<p>Terms & Conditions</p>
 					<p>|</p>
 					<p>Privacy Policy</p>
@@ -22,7 +22,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<p className="text-white-500">
+				<p className="text-white-500 opacity-70">
 					© 2025 All Rights Reserved by{" "}
 					<a href="https://theaminul.com/" target="_blank">
 						Aminul Islam
