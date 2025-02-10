@@ -17,7 +17,7 @@ export {
 	jobit,
 	logo,
 	tripguide,
-	web
+	web,
 
 	github,
 	twitter,
