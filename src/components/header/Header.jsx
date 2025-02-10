@@ -29,7 +29,7 @@ const Header = () => {
 	return (
 		<header
 			className={`w-full fixed top-0 z-50 ${
-				scroll ? "bg-[#121212] opacity-75" : "bg-transparent"
+				scroll ? "opacity-75 bg-[#010103] border-b border-gray-700" : "bg-transparent"
 			}`}
 		>
 			<div className="container flex items-center justify-between h-20 mx-auto">
