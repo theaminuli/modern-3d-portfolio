@@ -133,7 +133,7 @@
 	}
 
 	.hero_tag {
-		@apply font-[900] leading-[1.5] font-[Poppins] text-center;
+		@apply font-[900] font-[Poppins] text-center;
 	}
 	.social-icon {
 		@apply flex h-[3rem] w-[3rem] items-center justify-center rounded-full border border-gray-800 bg-gray-900;
