@@ -20,7 +20,7 @@ const About = () => {
 		<section className="c-space my-20" id="about">
 			<div className="container grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 				<motion.div
-					variants={fadeIn("bottom", "spring", 1 * 0.5, 0.75)}
+					variants={fadeIn("down", "spring", 1 * 0.5, 0.75)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: true, amount: 0.3 }}
@@ -44,7 +44,7 @@ const About = () => {
 				</motion.div>
 
 				<motion.div
-					variants={fadeIn("bottom", "spring", 2 * 0.5, 0.75)}
+					variants={fadeIn("down", "spring", 2 * 0.5, 0.75)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: true, amount: 0.3 }}
@@ -67,7 +67,7 @@ const About = () => {
 				</motion.div>
 
 				<motion.div
-					variants={fadeIn("bottom", "spring", 3 * 0.5, 0.75)}
+					variants={fadeIn("down", "spring", 3 * 0.5, 0.75)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: true, amount: 0.3 }}
