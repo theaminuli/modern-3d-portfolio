@@ -107,7 +107,12 @@ const About = () => {
 					</div>
 				</motion.div>
 
-				<div className="xl:col-span-2 xl:row-span-3">
+				<motion.div
+					variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
+					initial="hidden"
+					whileInView="show"
+					viewport={{ once: true, amount: 0.3 }}
+					className="xl:col-span-2 xl:row-span-3">
 					<div className="grid-container">
 						<img
 							src={grid3}
@@ -124,9 +129,14 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 
-				<div className="xl:col-span-1 xl:row-span-2">
+				<motion.div
+					variants={fadeIn("up", "spring", 2 * 0.5, 0.75)}
+					initial="hidden"
+					whileInView="show"
+					viewport={{ once: true, amount: 0.3 }}
+					className="xl:col-span-1 xl:row-span-2">
 					<div className="grid-container">
 						<img
 							src={grid4}
@@ -144,7 +154,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</section>
 	);
