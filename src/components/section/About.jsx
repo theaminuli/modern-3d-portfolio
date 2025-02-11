@@ -2,7 +2,8 @@ import { useState } from "react";
 import Globe from "react-globe.gl";
 import { copy, grid1, grid2, grid3, grid4, tick } from "../../assets";
 import Button from "../common/Button";
-
+import { motion } from "motion/react";
+import { fadeIn } from "../../utils";
 const About = () => {
 	const [hasCopied, setHasCopied] = useState(false);
 
@@ -18,7 +19,12 @@ const About = () => {
 	return (
 		<section className="c-space my-20" id="about">
 			<div className="container grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
-				<div className="col-span-1 xl:row-span-3">
+				<motion.div
+					variants={fadeIn("right", "spring", 1 * 0.5, 0.75)}
+					initial="hidden"
+					whileInView="show"
+					viewport={{ once: true, amount: 0.3 }}
+					className="col-span-1 xl:row-span-3">
 					<div className="grid-container">
 						<img
 							src={grid1}
@@ -27,17 +33,22 @@ const About = () => {
 						/>
 
 						<div>
-							<p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+							<p className="grid-headtext">Hi, I’m Aminul Islam</p>
 							<p className="grid-subtext">
-								With 12 years of experience, I have honed my skills in both
+								With 4 years of experience, I have honed my skills in both
 								frontend and backend dev, creating dynamic and responsive
 								websites.
 							</p>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 
-				<div className="col-span-1 xl:row-span-3">
+				<motion.div
+					variants={fadeIn("right", "spring", 2 * 0.5, 0.75)}
+					initial="hidden"
+					whileInView="show"
+					viewport={{ once: true, amount: 0.3 }}
+					className="col-span-1 xl:row-span-3">
 					<div className="grid-container">
 						<img
 							src={grid2}
@@ -53,9 +64,14 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 
-				<div className="col-span-1 xl:row-span-4">
+				<motion.div
+					variants={fadeIn("left", "spring", 1 * 0.5, 0.75)}
+					initial="hidden"
+					whileInView="show"
+					viewport={{ once: true, amount: 0.3 }}
+					className="col-span-1 xl:row-span-4">
 					<div className="grid-container">
 						<div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
 							<Globe
@@ -89,7 +105,7 @@ const About = () => {
 							<Button name="Contact Me" isBeam containerClass="w-full mt-10" />
 						</div>
 					</div>
-				</div>
+				</motion.div>
 
 				<div className="xl:col-span-2 xl:row-span-3">
 					<div className="grid-container">
