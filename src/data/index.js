@@ -1,5 +1,3 @@
-import { carrent, jobit, tripguide } from "../assets";
-
 export const navLinks = [
 	{
 		id: "about",
@@ -26,68 +24,44 @@ export const navLinks = [
 
 const projects = [
 	{
-		name: "Car Rent",
-		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-		],
-		image: carrent,
-		source_code_link: "https://github.com/iamhasanhabib",
+		"id": crypto.randomUUID(),
+		"title": "Blogy",
+		"description": "Blogy is a modern, responsive blog application built with React and Vite. It leverages the power of Tailwind CSS for styling and Axios for data fetching. The application is designed to provide a seamless and engaging user experience, with features like dark mode, infinite scrolling, and more.",
+		"image": "https://raw.githubusercontent.com/theaminuli/blogy/refs/heads/main/public/screenshot.png",
+		"technologies": ["React", "Vite", "Tailwind CSS", "Axios"],
+		"demo": "https://blogy-theaminuli.vercel.app/",
+		"tags": ["React", "Vite", "Tailwind CSS", "Axios"],
+		"source": "www.github.com/theaminuli/blogy",
+		"status": "completed",
+		"created": "2025-02-04",
+		"category": "web",
 	},
 	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "scss",
-				color: "pink-text-gradient",
-			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/iamhasanhabib",
+		"id": crypto.randomUUID(),
+		"title": "Restaurant",
+		"description": "Restaurant: A stylish, clean, and creatively designed template for showcasing restaurants. Tailored for those who want an online portfolio, it presents your culinary achievements with an impressive design. All codes are meticulously handcrafted.",
+		"image": "https://raw.githubusercontent.com/theaminuldev/restaurant/development/public/banner.png",
+		"technologies": ["HTML", "CSS", "JavaScript"],
+		"demo": "https://restaurant-theaminul.vercel.app/",
+		"tags": ["HTML", "CSS", "JavaScript"],
+		"source": "www.github.com/theaminuldev/restaurant",
+		"status": "completed",
+		"created": "2019-12-26",
+		"category": "web",
 	},
 	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/iamhasanhabib",
-	},
+		"id": crypto.randomUUID(),
+		"title": "Apex Portfolio",
+		"description": "Apex Personal Portfolio Theme: A modern, clean, and creatively designed template to showcase your portfolio. Tailored for creative individuals, it highlights your work and achievements with an impressive design. Perfect for crafting an online presence",
+		"image": "https://theaminuli.github.io/apex/assets/image/page/portfolio-details-1.png",
+		"technologies": ["HTML", "CSS", "JavaScript"],
+		"demo": "https://theaminuli.github.io/apex/",
+		"tags": ["HTML", "CSS", "JavaScript"],
+		"source": "https://github.com/theaminuli/apex",
+		"status": "completed",
+		"created": "2019-12-26",
+		"category": "web",
+	}
 ];
 
 /**
