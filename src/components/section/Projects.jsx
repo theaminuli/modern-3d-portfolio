@@ -8,14 +8,14 @@ const Projects = () => {
 				{projects.map((project) => (
 					<div
 						key={project.id}
-						className="bg-[#111828] border-2 border-gray-700 overflow-hidden shadow-lg hover:shadow-xl transition-all"
+						className="rounded-md border border-gray-800 bg-gray-900 overflow-hidden shadow-lg hover:shadow-xl transition-all"
 					>
 						<img
 							src={project.image}
 							alt={project.title}
 							className="w-full h-70 object-cover hover:scale-105 transition-transform"
 						/>
-						<div className="flex flex-col justify-between h-full">
+						<div className="flex flex-col justify-between p-4 flex-grow">
 							<div className="p-4">
 								<h3 className="font-semibold text-lg">{project.title }</h3>
 								<p className="text-gray-600">
