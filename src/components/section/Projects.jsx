@@ -4,7 +4,7 @@ const Projects = () => {
 			<div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 				<div className="border-2 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all">
 					<img
-						src="https://via.placeholder.com/400"
+						src="https://placehold.co/400"
 						alt="Personal Portfolio"
 						className="w-full h-52 object-cover hover:scale-105 transition-transform"
 					/>
@@ -24,7 +24,7 @@ const Projects = () => {
 
 				<div className="border-2 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all">
 					<img
-						src="https://via.placeholder.com/400"
+						src="https://placehold.co/400"
 						alt="Apex"
 						className="w-full h-52 object-cover hover:scale-105 transition-transform"
 					/>
@@ -44,7 +44,7 @@ const Projects = () => {
 
 				<div className="border-2 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all">
 					<img
-						src="https://via.placeholder.com/400"
+						src="https://placehold.co/400"
 						alt="ElementsKit"
 						className="w-full h-52 object-cover hover:scale-105 transition-transform"
 					/>
@@ -64,7 +64,7 @@ const Projects = () => {
 
 				<div className="border-2 border-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all">
 					<img
-						src="https://via.placeholder.com/400"
+						src="https://placehold.co/400"
 						alt="Conskip"
 						className="w-full h-52 object-cover hover:scale-105 transition-transform"
 					/>
