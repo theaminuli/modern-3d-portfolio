@@ -32,7 +32,7 @@ const Header = () => {
 				scroll ? "opacity-90 bg-[#010103] border-b border-gray-700" : "bg-transparent"
 			}`}
 		>
-			<div className="container flex items-center justify-between h-20 mx-auto">
+			<div className="container flex items-center justify-between h-20 mx-auto p-0">
 				<Logo />
 				<ul className="list-none hidden sm:flex flex-row gap-10">
 					{navLinks.map((nav) => (
