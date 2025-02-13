@@ -31,7 +31,7 @@ const Projects = () => {
 								</div>
 								<div className="p-4 flex justify-end items-center">
 									<a
-										href={project.source}
+										href={project.source} target="_blank" rel="noreferrer"
 										className="p-2 bg-black text-white hover:bg-gray-800 transition"
 									>
 										<SquareArrowOutUpRight />
