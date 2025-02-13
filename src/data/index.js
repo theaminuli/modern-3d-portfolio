@@ -30,7 +30,7 @@ const projects = [
 		"image": "https://raw.githubusercontent.com/theaminuli/blogy/refs/heads/main/public/screenshot.png",
 		"technologies": ["React", "Vite", "Tailwind CSS", "Axios"],
 		"demo": "https://blogy-theaminuli.vercel.app/",
-		"tags": ["React", "Vite", "Tailwind CSS", "Axios"],
+		"tags": ["React", "Tailwind CSS", "Axios"],
 		"source": "https://github.com/theaminuli/blogy/",
 		"status": "completed",
 		"created": "2025-02-04",

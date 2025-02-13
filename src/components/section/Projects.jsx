@@ -23,7 +23,7 @@ const Projects = () => {
 									<h3 className="font-semibold text-lg">{project.title}</h3>
 									<p className="text-gray-600">
 										{project.tags.map((tag, index) => (
-											<span key={tag} className="text-sm text-gray-400 p-1" style={{ backgroundColor: getBackgroundColor(index) }}>
+											<span key={tag} className="text-sm text-gray-400 p-1 m-.5" style={{ backgroundColor: getBackgroundColor(index) }}>
 												{`#`+tag}
 											</span>
 										))}
