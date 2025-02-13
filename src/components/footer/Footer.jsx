@@ -11,19 +11,19 @@ const Footer = () => {
 				</div>
 
 				<div className="flex gap-3">
-					<div className="social-icon">
+					<a className="social-icon" href="#">
 						<img src={github} alt="github" className="w-1/2 h-1/2" />
-					</div>
-					<div className="social-icon">
+					</a>
+					<a className="social-icon" href="#">
 						<img src={twitter} alt="twitter" className="w-1/2 h-1/2" />
-					</div>
-					<div className="social-icon">
+					</a>
+					<a className="social-icon" href="#">
 						<img src={instagram} alt="instagram" className="w-1/2 h-1/2" />
-					</div>
+					</a>
 				</div>
 
 				<p className="text-white-500 opacity-70">
-					© 2025 All Rights Reserved by{" "}
+					© 2025 All Rights Reserved by
 					<a href="https://theaminul.com/" target="_blank">
 						Aminul Islam
 					</a>

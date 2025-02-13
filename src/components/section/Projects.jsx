@@ -1,5 +1,6 @@
 import { SquareArrowOutUpRight } from "lucide-react";
 import { projects } from "../../data";
+import { getBackgroundColor } from "../../utils";
 
 const Projects = () => {
 	return (
@@ -21,9 +22,9 @@ const Projects = () => {
 								<div className="p-4">
 									<h3 className="font-semibold text-lg">{project.title}</h3>
 									<p className="text-gray-600">
-										{project.tags.map((tag) => (
-											<span key={tag} className="text-sm text-gray-400">
-												{tag}
+										{project.tags.map((tag, index) => (
+											<span key={tag} className="text-sm text-gray-400 p-1" style={{ backgroundColor: getBackgroundColor(index) }}>
+												{`#`+tag}
 											</span>
 										))}
 									</p>
