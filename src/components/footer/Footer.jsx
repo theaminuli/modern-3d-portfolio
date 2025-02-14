@@ -23,7 +23,7 @@ const Footer = () => {
 				</div>
 
 				<p className="text-white-500 opacity-70">
-					© 2025 All Rights Reserved by
+					© 2025 All Rights Reserved by 
 					<a href="https://theaminul.com/" target="_blank">
 						Aminul Islam
 					</a>

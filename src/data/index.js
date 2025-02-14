@@ -149,9 +149,7 @@ const workExperiences = [
  * @module data
  * @exports experiences - Array of experience objects.
  * @exports projects - Array of project objects.
- * @exports services - Array of service objects.
- * @exports technologies - Array of technology objects.
- * @exports testimonials - Array of testimonial objects.
+ * @exports clientReviews - Array of clientReviews objects.
  */
 export {
 	clientReviews, projects, workExperiences

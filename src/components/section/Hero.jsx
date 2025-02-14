@@ -17,7 +17,7 @@ const Hero = () => {
 				className="absolute inset-0 top-[40px]  max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5">
 				<div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
 					<p className="sm:text-3xl text-xl font-medium text-white text-center">Hi, I am Aminul <span className="waving-hand">👋</span></p>
-					<p className="hero_tag pink-text-gradient text-6xl sm:text-4xl md:text-5xl">Building Products &amp; Brands</p>
+					<p className="hero_tag text-6xl sm:text-4xl">Building Products &amp; Brands</p>
 				</div>
 			</div>
 

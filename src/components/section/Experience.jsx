@@ -7,6 +7,25 @@ import { workExperiences } from "../../data";
 import Developer from "../canvas/Developer.jsx";
 import Loader from "../common/Loader.jsx";
 
+/**
+ * Experience component renders a section displaying work experiences with interactive 3D animations.
+ * 
+ * @component
+ * @example
+ * @returns {JSX.Element} A section element containing work experiences and a 3D canvas.
+ * 
+ * @description
+ * The Experience component uses React Three Fiber to render a 3D canvas with lighting and controls.
+ * It displays a list of work experiences, each of which can trigger different animations on hover or click.
+ * 
+ * @function
+ * @name Experience
+ * 
+ * @property {string} animationName - State to manage the current animation name for the 3D model.
+ * @property {function} setAnimationName - Function to update the animation name state.
+ * 
+ * @property {Array} workExperiences - Array of work experience objects, each containing:
+ */
 const Experience = () => {
 	const [animationName, setAnimationName] = useState("idle");
 
