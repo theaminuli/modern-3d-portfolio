@@ -17,7 +17,7 @@ const Projects = () => {
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: true, amount: 0.3 }}
-							className="rounded-md border border-gray-800 bg-gray-900 overflow-hidden shadow-lg hover:shadow-xl transition-all"
+							className="rounded-md border border-gray-800 bg-gray-900 overflow-hidden shadow-lg hover:shadow-xl"
 						>
 							<img
 								src={project.image}
