@@ -22,7 +22,7 @@ const About = () => {
 				<motion.div
 					variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
 					initial="hidden"
-					whileInView="show"
+					whileInView="visible"
 					viewport={{ once: true, amount: 0.3 }}
 					className="col-span-1 xl:row-span-3">
 					<div className="grid-container">
@@ -46,7 +46,7 @@ const About = () => {
 				<motion.div
 					variants={fadeIn("up", "spring", 2 * 0.5, 0.75)}
 					initial="hidden"
-					whileInView="show"
+					whileInView="visible"
 					viewport={{ once: true, amount: 0.3 }}
 					className="col-span-1 xl:row-span-3">
 					<div className="grid-container">
@@ -69,7 +69,7 @@ const About = () => {
 				<motion.div
 					variants={fadeIn("up", "spring", 3 * 0.5, 0.75)}
 					initial="hidden"
-					whileInView="show"
+					whileInView="visible"
 					viewport={{ once: true, amount: 0.3 }}
 					className="col-span-1 xl:row-span-4">
 					<div className="grid-container">
@@ -110,7 +110,7 @@ const About = () => {
 				<motion.div
 					variants={fadeIn("up", "spring", 1 * 0.5, 0.75)}
 					initial="hidden"
-					whileInView="show"
+					whileInView="visible"
 					viewport={{ once: true, amount: 0.3 }}
 					className="xl:col-span-2 xl:row-span-3">
 					<div className="grid-container">
@@ -134,7 +134,7 @@ const About = () => {
 				<motion.div
 					variants={fadeIn("up", "spring", 2 * 0.5, 0.75)}
 					initial="hidden"
-					whileInView="show"
+					whileInView="visible"
 					viewport={{ once: true, amount: 0.3 }}
 					className="xl:col-span-1 xl:row-span-2">
 					<div className="grid-container">
