@@ -15,7 +15,7 @@ const Projects = () => {
 							variants={fadeIn(
 								"up",
 								"spring",
-								(index == 3 ? 2 : index) * 0.5,
+								(index == 3 ? 1 : index) * 0.5,
 								0.75
 							)}
 							initial="hidden"
