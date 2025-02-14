@@ -12,7 +12,7 @@ const Projects = () => {
 					{projects.map((project, index) => (
 						<motion.div
 							key={project.id}
-							variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+							variants={fadeIn("uo", "spring", 1 * 0.5, 0.75)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: true, amount: 0.3 }}
