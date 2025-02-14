@@ -1,6 +1,5 @@
-import { star } from "../../assets/index.js";
-import { clientReviews } from "../../data/index.js";
-
+import { star } from "../../assets";
+import { clientReviews } from "../../data";
 const Clients = () => {
 	return (
 		<section className="c-space my-20">
