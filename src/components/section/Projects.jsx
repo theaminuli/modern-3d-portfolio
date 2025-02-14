@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { SquareArrowOutUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { projects } from "../../data";
