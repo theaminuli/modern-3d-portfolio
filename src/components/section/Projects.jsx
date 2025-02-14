@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { SquareArrowOutUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { projects } from "../../data";
@@ -13,7 +12,12 @@ const Projects = () => {
 					{projects.map((project, index) => (
 						<motion.div
 							key={project.id}
-							variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+							variants={fadeIn(
+								"up",
+								"spring",
+								(index == 3 ? 2 : index) * 0.5,
+								0.75
+							)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: true, amount: 0.3 }}
