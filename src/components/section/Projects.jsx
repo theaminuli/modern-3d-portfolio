@@ -14,7 +14,7 @@ const Projects = () => {
 							key={project.id}
 							variants={fadeIn("right", "spring", index * 0.5, 0.75)}
 							initial="hidden"
-							whileInView="visible"
+							whileInView="show"
 							viewport={{ once: true, amount: 0.3 }}
 							className="rounded-md border border-gray-800 bg-gray-900 overflow-hidden shadow-lg hover:shadow-xl transition-all"
 						>
