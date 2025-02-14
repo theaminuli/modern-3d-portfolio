@@ -173,6 +173,6 @@
 		@apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5 mt-7;
 	}
 	.client-review {
-		@apply rounded-lg md:p-10 p-5 col-span-1 bg-[#0E0E11] opacity-50;
+		@apply rounded-lg md:p-10 p-5 col-span-1 bg-[#111828];
 	}
 }
