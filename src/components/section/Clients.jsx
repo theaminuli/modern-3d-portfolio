@@ -1,5 +1,11 @@
 import { star } from "../../assets";
 import { clientReviews } from "../../data";
+/**
+ * Clients component renders a section displaying client reviews.
+ * 
+ * @component
+ * @returns {JSX.Element} A section containing client reviews.
+ */
 const Clients = () => {
 	return (
 		<section className="c-space my-20">
