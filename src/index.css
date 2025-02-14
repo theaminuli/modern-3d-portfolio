@@ -189,7 +189,7 @@
 	}
 
 	.field-label {
-		@apply text-lg text-white-600;
+		@apply text-lg text-gray-200;
 	}
 
 	.field-input {
