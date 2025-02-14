@@ -40,7 +40,7 @@ const projects = [
 		"id": crypto.randomUUID(),
 		"title": "Restaurant",
 		"description": "Restaurant: A stylish, clean, and creatively designed template for showcasing restaurants. Tailored for those who want an online portfolio, it presents your culinary achievements with an impressive design. All codes are meticulously handcrafted.",
-		"image": "https://raw.githubusercontent.com/theaminuldev/restaurant/development/public/banner.png",
+		"image": "https://raw.githubusercontent.com/theaminuli/restaurant/development/public/banner.png",
 		"technologies": ["HTML", "CSS", "JavaScript"],
 		"demo": "https://restaurant-theaminul.vercel.app/",
 		"tags": ["HTML", "CSS", "JavaScript"],
@@ -61,7 +61,21 @@ const projects = [
 		"status": "completed",
 		"created": "2019-12-26",
 		"category": "web",
+	},
+	{
+		"id": crypto.randomUUID(),
+		"title": "Modern 3d Portfolio",
+		"description": "Portfolio: A modern, clean, and creatively designed template for showcasing your portfolio. Tailored for creative individuals, it highlights your work and achievements with an impressive design. Perfect for crafting an online presence.",
+		"image": "https://raw.githubusercontent.com/theaminuli/modern-3d-portfolio/refs/heads/main/screenshot.png",
+		"technologies": ["Motion", "Threejs", "React"],
+		"demo": "https://modern-3d-portfoliox.vercel.app/",
+		"tags": ["Motion", "Threejs", "React"],
+		"source": "https://github.com/theaminuli/modern-3d-portfolio/",
+		"status": "completed",
+		"created": "2025-02-04",
+		"category": "web",
 	}
+
 ];
 
 /**
