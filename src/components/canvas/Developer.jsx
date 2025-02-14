@@ -12,6 +12,18 @@ import { useGraph } from "@react-three/fiber";
 import { useEffect, useMemo, useRef } from "react";
 import { SkeletonUtils } from "three-stdlib";
 
+/**
+ * Developer component renders a 3D model with various animations.
+ *
+ * @param {Object} props - The properties passed to the component.
+ * @param {string} [props.animationName="idle"] - The name of the animation to play.
+ * @returns {JSX.Element} The rendered 3D model with animations.
+ *
+ * @example
+ * <Developer animationName="salute" />
+ *
+ * @component
+ */
 const Developer = ({ animationName = "idle", ...props }) => {
 	const group = useRef();
 

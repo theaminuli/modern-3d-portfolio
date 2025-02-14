@@ -7,6 +7,15 @@ import Logo from "./Logo";
 import MenuToggle from "./MenuToggle";
 import Navigation from "./Navigation";
 
+/**
+ * Header component that displays a fixed navigation bar at the top of the page.
+ * The header changes its background and opacity based on the scroll position.
+ * It includes a logo, navigation links, and a responsive menu toggle.
+ *
+ * @component
+ *
+ * @returns {JSX.Element} The rendered Header component.
+ */
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const containerRef = useRef(null);

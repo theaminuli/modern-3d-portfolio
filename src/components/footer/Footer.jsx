@@ -1,5 +1,17 @@
 import { github, instagram, twitter } from "../../assets";
 
+/**
+ * Footer component that renders the footer section of the website.
+ * 
+ * @component
+ * @returns {JSX.Element} The rendered footer component.
+ * 
+ * @description
+ * The Footer component includes:
+ * - A container with terms and conditions, privacy policy links.
+ * - Social media icons for GitHub, Twitter, and Instagram.
+ * - Copyright information with a link to the author's website.
+ */
 const Footer = () => {
 	return (
 		<footer className="bg-[#010103] border-t border-gray-700">

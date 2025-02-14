@@ -5,6 +5,11 @@ import Experience from "./Experience";
 import Hero from "./Hero";
 import Projects from "./Projects";
 
+/**
+ * HomePage component that renders the main sections of the portfolio.
+ * 
+ * @component
+ */
 const HomePage = () => {
 	return (
 		<>

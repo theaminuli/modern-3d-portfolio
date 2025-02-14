@@ -1,5 +1,11 @@
 import { logo } from "../../assets";
 
+/**
+ * Logo component renders a clickable logo that navigates to the homepage.
+ * It includes an image and a text span with specific styling.
+ *
+ * @component
+ */
 const Logo = () => {
 	return (
 		<a

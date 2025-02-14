@@ -5,6 +5,14 @@ import useAlert from "../../hooks/useAlert.js";
 import { StarsCanvas } from "../canvas";
 import Alert from "../common/Alert.jsx";
 
+/**
+ * Contact component renders a contact form section with fields for name, email, and message.
+ * It includes form validation, loading state, and alert messages.
+ * 
+ * @component
+ * 
+ * @returns {JSX.Element} The rendered contact form section.
+ */
 const Contact = () => {
 	const formRef = useRef();
 

@@ -1,4 +1,12 @@
 /* eslint-disable react/prop-types */
+/**
+ * Alert component to display a notification message.
+ *
+ * @param {Object} props - The properties object.
+ * @param {'danger' | 'success'} props.type - The type of alert, either 'danger' or 'success'.
+ * @param {string} props.text - The text message to display in the alert.
+ * @returns {JSX.Element} The rendered Alert component.
+ */
 const Alert = ({ type, text }) => {
 	return (
 		<div className="fixed bottom-5 right-5 flex justify-center items-center z-50">
