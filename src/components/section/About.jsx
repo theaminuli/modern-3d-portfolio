@@ -4,6 +4,15 @@ import { copy, grid1, grid2, grid3, grid4, tick } from "../../assets";
 import Button from "../common/Button";
 import { motion } from "motion/react";
 import { fadeIn } from "../../utils";
+/**
+ * About component renders the "About" section of the portfolio.
+ * It includes personal information, tech stack, a globe visualization,
+ * and a contact section with a copy-to-clipboard feature.
+ *
+ * @component
+ *
+ * @returns {JSX.Element} The rendered About section.
+ */
 const About = () => {
 	const [hasCopied, setHasCopied] = useState(false);
 

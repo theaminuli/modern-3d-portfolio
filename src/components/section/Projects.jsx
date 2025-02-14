@@ -3,6 +3,14 @@ import { motion } from "motion/react";
 import { projects } from "../../data";
 import { fadeIn, getBackgroundColor } from "../../utils";
 
+/**
+ * Projects component renders a section displaying a grid of project cards.
+ * Each card includes an image, title, tags, and a link to the project's source.
+ * 
+ * @component
+ * 
+ * @returns {JSX.Element} A section element with a grid of project cards.
+ */
 const Projects = () => {
 	return (
 		<section className="c-space my-20" id="projects">

@@ -15,6 +15,14 @@ import grid4 from "./about/grid4.png";
 import copy from "./about/copy.svg";
 import tick from "./about/tick.svg";
 
+
+// review
+import review1 from "./review/review1.png";
+import review2 from "./review/review2.png";
+import review3 from "./review/review3.png";
+import review4 from "./review/review4.png";
+import star from "./review/star.png";
+
 export {
 	logo,
 	github,
@@ -26,5 +34,10 @@ export {
 	grid4,
 	copy,
 	tick,
+	review1,
+	review2,
+	review3,
+	review4,
+	star,
 };
 
