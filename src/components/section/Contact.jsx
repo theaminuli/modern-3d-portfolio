@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
 import useAlert from "../../hooks/useAlert.js";
+import StarsCanvas from "../canvas/StarsCanvas.jsx";
 import Alert from "../common/Alert.jsx";
 
 const Contact = () => {
@@ -29,7 +30,8 @@ const Contact = () => {
 	};
 
 	return (
-		<section className="c-space my-20" id="contact">
+		<section className="c-space my-20 relative z-0" id="contact">
+			<StarsCanvas />
 			{alert.show && <Alert {...alert} />}
 			<div className="container">
 				<div className="relative min-h-screen flex items-center justify-center flex-col">
