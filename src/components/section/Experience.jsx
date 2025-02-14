@@ -3,27 +3,28 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useState } from "react";
 
+import { motion } from "motion/react";
 import { workExperiences } from "../../data";
-import Developer from "../canvas/Developer.jsx";
+import fadeIn from "../../utils/fadeIn.js";
+import { Developer } from "../canvas";
 import Loader from "../common/Loader.jsx";
-
 /**
  * Experience component renders a section displaying work experiences with interactive 3D animations.
- * 
+ *
  * @component
  * @example
  * @returns {JSX.Element} A section element containing work experiences and a 3D canvas.
- * 
+ *
  * @description
  * The Experience component uses React Three Fiber to render a 3D canvas with lighting and controls.
  * It displays a list of work experiences, each of which can trigger different animations on hover or click.
- * 
+ *
  * @function
  * @name Experience
- * 
+ *
  * @property {string} animationName - State to manage the current animation name for the 3D model.
  * @property {function} setAnimationName - Function to update the animation name state.
- * 
+ *
  * @property {Array} workExperiences - Array of work experience objects, each containing:
  */
 const Experience = () => {
@@ -55,7 +56,11 @@ const Experience = () => {
 					<div className="work-content">
 						<div className="sm:py-10 py-5 sm:px-5 px-2.5">
 							{workExperiences.map((item, index) => (
-								<div
+								<motion.div
+									variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+									initial="hidden"
+									whileInView="show"
+									viewport={{ once: true, amount: 0.3 }}
 									key={index}
 									onClick={() => setAnimationName(item.animation.toLowerCase())}
 									onPointerOver={() =>
@@ -81,7 +86,7 @@ const Experience = () => {
 											{item.title}
 										</p>
 									</div>
-								</div>
+								</motion.div>
 							))}
 						</div>
 					</div>

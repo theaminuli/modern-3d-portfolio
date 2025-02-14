@@ -1,8 +1,10 @@
+import { motion } from "motion/react";
 import { star } from "../../assets";
 import { clientReviews } from "../../data";
+import { fadeIn } from "../../utils";
 /**
  * Clients component renders a section displaying client reviews.
- * 
+ *
  * @component
  * @returns {JSX.Element} A section containing client reviews.
  */
@@ -13,8 +15,15 @@ const Clients = () => {
 				<h3 className="head-text">Hear from My Clients</h3>
 
 				<div className="client-container">
-					{clientReviews.map((item) => (
-						<div key={item.id} className="client-review">
+					{clientReviews.map((item, index) => (
+						<motion.div
+							key={item.id}
+							variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+							initial="hidden"
+							whileInView="show"
+							viewport={{ once: true, amount: 0.3 }}
+							className="client-review"
+						>
 							<div>
 								<p className="text-white-800 font-light">{item.review}</p>
 
@@ -47,7 +56,7 @@ const Clients = () => {
 									</div>
 								</div>
 							</div>
-						</div>
+						</motion.div>
 					))}
 				</div>
 			</div>

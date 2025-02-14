@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
 import useAlert from "../../hooks/useAlert.js";
-import StarsCanvas from "../canvas/StarsCanvas.jsx";
+import { StarsCanvas } from "../canvas";
 import Alert from "../common/Alert.jsx";
 
 const Contact = () => {

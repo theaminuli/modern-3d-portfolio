@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import { itemVariants } from "../../utils";
 
-const MenuItem = ({ index, title }) => {
+const MenuItem = ({id, index, title }) => {
 	const colors = ["#FF008C", "#D309E1", "#9C1AFF"];
 	return (
 		<motion.li
@@ -12,7 +12,7 @@ const MenuItem = ({ index, title }) => {
 			whileTap={{ scale: 0.95 }}
 		>
 			<a
-				href="#"
+				href={`#${id}`}
 				className="flex items-center space-x-3 p-2 bg-gray-800 opacity-100 rounded-md cursor-pointer"
 			>
 				<div
