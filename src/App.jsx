@@ -1,6 +1,6 @@
 import { Footer } from "./components/footer";
 import Header from "./components/header/Header";
-import HomePage from "./components/section";
+import HomePage from "./components/section/index";
 
 function App() {
 	return (
