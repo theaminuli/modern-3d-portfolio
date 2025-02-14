@@ -1,5 +1,5 @@
 import { star } from "../../assets/index.js";
-import { clientReviews } from "../constants/index.js";
+import { clientReviews } from "../../data/index.js";
 
 const Clients = () => {
 	return (
