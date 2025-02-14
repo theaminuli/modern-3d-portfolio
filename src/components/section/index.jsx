@@ -6,14 +6,15 @@ import Hero from "./Hero";
 import Projects from "./Projects";
 
 const HomePage = () => {
-	<>
-		<Hero />
-		<About />
-		<Projects />
-		<Clients />
-		<Experience />
-		<Contact />
-
-	</>
-}
+	return (
+		<>
+			<Hero />
+			<About />
+			<Experience />
+			<Projects />
+			<Clients />
+			<Contact />
+		</>
+	);
+};
 export default HomePage;
