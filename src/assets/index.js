@@ -23,6 +23,11 @@ import review3 from "./review/review3.png";
 import review4 from "./review/review4.png";
 import star from "./review/star.png";
 
+//experiences
+import figma from "./experiences/figma.svg";
+import framer from "./experiences/framer.png";
+import notion from "./experiences/notion.svg";
+
 export {
 	logo,
 	github,
@@ -39,5 +44,8 @@ export {
 	review3,
 	review4,
 	star,
+	figma,
+	framer,
+	notion,
 };
 
