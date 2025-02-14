@@ -191,10 +191,10 @@
 	}
 	
 	.work-content_logo {
-		@apply rounded-3xl w-16 h-16 p-2 bg-gray-700;
+		@apply rounded-3xl w-16 h-16 p-2 bg-gray-700 group-hover:bg-gray-900;
 	}
 	
 	.work-content_bar {
-		@apply flex-1 w-0.5 mt-4 h-full bg-gray-700 group-hover:bg-gray-500 group-last:hidden;
+		@apply flex-1 w-0.5 mt-4 h-full bg-gray-700 group-hover:bg-gray-900 group-last:hidden;
 	}
 }
