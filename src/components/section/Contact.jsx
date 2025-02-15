@@ -1,17 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
-import useAlert from "../../hooks";
+import { arrow, terminal } from "../../assets";
+import { useAlert } from "../../hooks";
 import { StarsCanvas } from "../canvas";
 import Alert from "../common/Alert.jsx";
-import { arrow, terminal } from "../../assets";
 
 /**
  * Contact component renders a contact form section with fields for name, email, and message.
  * It includes form validation, loading state, and alert messages.
- * 
+ *
  * @component
- * 
+ *
  * @returns {JSX.Element} The rendered contact form section.
  */
 const Contact = () => {
@@ -105,11 +105,7 @@ const Contact = () => {
 							<button className="field-btn" type="submit" disabled={loading}>
 								{loading ? "Sending..." : "Send Message"}
 
-								<img
-									src={arrow}
-									alt="arrow-up"
-									className="field-btn_arrow"
-								/>
+								<img src={arrow} alt="arrow-up" className="field-btn_arrow" />
 							</button>
 						</form>
 					</div>
