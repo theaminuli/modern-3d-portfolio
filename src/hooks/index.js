@@ -11,4 +11,4 @@ import useMediaQuery from "./useMediaQuery";
  * @exports useMediaQuery - Custom hook to handle media queries.
  * @exports useAlert - Custom hook to manage alert messages.
  */
-export { useDimensions, useMediaQuery,useAlert };
+export { useDimensions, useMediaQuery, useAlert };

@@ -28,6 +28,11 @@ import figma from "./experiences/figma.svg";
 import framer from "./experiences/framer.png";
 import notion from "./experiences/notion.svg";
 
+
+// contact
+import arrow from "./contact/arrow-up.png";
+import terminal from "./contact/terminal.png";
+
 export {
 	logo,
 	github,
@@ -47,5 +52,7 @@ export {
 	figma,
 	framer,
 	notion,
+	arrow,
+	terminal,
 };
 

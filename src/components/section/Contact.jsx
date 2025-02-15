@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useRef, useState } from "react";
-import useAlert from "../../hooks/useAlert.js";
+import useAlert from "../../hooks";
 import { StarsCanvas } from "../canvas";
 import Alert from "../common/Alert.jsx";
+import { arrow, terminal } from "../../assets";
 
 /**
  * Contact component renders a contact form section with fields for name, email, and message.
@@ -27,7 +28,7 @@ const Contact = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setLoading(true);
-		// Some things do here
+		//Do Some things do here
 
 		// hideAlert(false);
 		// showAlert({
@@ -44,7 +45,7 @@ const Contact = () => {
 			<div className="container">
 				<div className="relative min-h-screen flex items-center justify-center flex-col">
 					<img
-						src="/terminal.png"
+						src={terminal}
 						alt="terminal-bg"
 						className="absolute inset-0 min-h-screen"
 					/>
@@ -105,7 +106,7 @@ const Contact = () => {
 								{loading ? "Sending..." : "Send Message"}
 
 								<img
-									src="/arrow-up.png"
+									src={arrow}
 									alt="arrow-up"
 									className="field-btn_arrow"
 								/>
